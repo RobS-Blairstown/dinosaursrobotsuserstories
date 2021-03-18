@@ -2,8 +2,10 @@
 
 class Robot:
     def __init__(self):
-        self.name = ''
-        self.health = ''
-        self.power_level = ''
+        self.name = 'John'
+        self.health = '100'
+        self.power_level = '58'
         self.weapon = ''
-        self.attack_power = ''
+        self.attack_power = '20'
+
+    def robot_weapon_choice(self):
